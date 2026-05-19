@@ -151,7 +151,7 @@ def user_input(user_question):
     )
 
     st.subheader("Reply")
-    st.write(response)
+    st.markdown(response[0]['text'])
 
 
 # -----------------------------------

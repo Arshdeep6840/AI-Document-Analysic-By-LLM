@@ -66,3 +66,8 @@ streamlit run apps.py
 - Upload your document for query
 
 - Type chat prompt message to query the multiple documents
+
+
+
+
+pip install streamlit pymupdf langchain langchain-community langchain-huggingface faiss-cpu sentence-transformers transformers torch accelerate bitsandbytes python-dotenv
